@@ -64,7 +64,7 @@ fun LemonApp(){
                     modifier = Modifier
                         .wrapContentSize()
                         .clickable { currentStep++
-                        Toast.makeText(context,"CLick ${5-currentStep} times",Toast.LENGTH_SHORT).show()}
+                        Toast.makeText(context,"CLick ${5-currentStep} times ",Toast.LENGTH_SHORT).show()}
                         .border(
                             BorderStroke(2.dp, Color(105, 205, 216)),
                             shape = RoundedCornerShape(4.dp)
